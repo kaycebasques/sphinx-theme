@@ -1,7 +1,7 @@
 project = 'sphinx-m3'
 copyright = '2024, Kayce Basques'
 author = 'Kayce Basques'
-release = '0.0.2'
+release = '0.0.1'
 
 
 extensions = [
@@ -16,6 +16,6 @@ exclude_patterns = [
     'venv', 
 ]
 
-
-html_theme = 'alabaster'
+html_theme = 'sphinx-m3'
+# html_theme = 'alabaster'
 # html_static_path = ['_static']
