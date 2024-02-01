@@ -4,7 +4,9 @@ author = 'Kayce Basques'
 release = '0.0.2'
 
 
-extensions = ['sphinx-m3']
+extensions = [
+    'sphinx-m3'
+]
 
 
 templates_path = ['_templates']
