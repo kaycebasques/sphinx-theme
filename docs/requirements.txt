@@ -1,2 +1,2 @@
 sphinx==7.1.2
--e ../sphinx_m3
+-e ..
