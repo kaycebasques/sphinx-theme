@@ -1,1 +1,1 @@
-# sphinx-m3
+# sphinx-theme
