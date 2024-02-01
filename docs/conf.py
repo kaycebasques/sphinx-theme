@@ -1,21 +1,14 @@
-project = 'sphinx-m3'
-copyright = '2024, Kayce Basques'
-author = 'Kayce Basques'
+project = 'sphinx-theme'
+copyright = '<YEAR>, <NAME>'
+author = '<NAME>'
 release = '0.0.1'
-
-
 extensions = [
-    'sphinx-m3'
+    'sphinx-theme'
 ]
-
-
 templates_path = ['_templates']
 exclude_patterns = [
     '_build',
     'build.sh',
     'venv', 
 ]
-
-html_theme = 'sphinx-m3'
-# html_theme = 'alabaster'
-# html_static_path = ['_static']
+html_theme = 'sphinx-theme'
