@@ -5,9 +5,9 @@ from setuptools import setup, find_packages
 #         return [line.strip() for line in f.readlines()]
 
 setup(
-    name='sphinx-m3',
+    name='sphinx-theme',
     version='0.0.1',
-    packages=['sphinx-m3'],
+    packages=['sphinx-theme'],
     # install_requires=install_requires(),
     install_requires=[],
     classifiers=[],
