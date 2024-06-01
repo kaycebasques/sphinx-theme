@@ -1,1 +1,12 @@
-{% block body %}{% endblock %}
+<!doctype html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ pathto('_static/sphinx-theme.css', 1) }}">
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Hello, world!</p>
+    {% block body %}{% endblock %}
+  </body>
+</html>
